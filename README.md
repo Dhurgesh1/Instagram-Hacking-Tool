@@ -1,4 +1,10 @@
-# Original Concept, Architected, Engineered, Designed, Implementation and Developed by Dhurgesh Maloth
+<div align="center">
+
+### ✦ Crafted by Dhurgesh Maloth ✦
+
+**Concept • Research • Architecture • Design • Engineering • Development • Implementation**
+
+</div>
 
 # Instagram UI Maxer!
 

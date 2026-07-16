@@ -1,6 +1,6 @@
 <div align="center">
 
-### ✦ Crafted by Dhurgesh Maloth ✦
+### ✦ Made by Dhurgesh Maloth ✦
 
 **Concept • Research • Architecture • Design • Engineering • Development • Implementation**
 

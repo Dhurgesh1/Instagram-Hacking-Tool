@@ -1,3 +1,5 @@
+# Original Concept, Architected, Engineered, Designed, Implementation and Developed by Dhurgesh Maloth
+
 # Instagram UI Maxer!
 
 Instagram UI Maxer! is a prototype Chrome extension designed for personal testing and experimentation with browser-based workflows. It demonstrates how a browser extension can read cookie data, save local values, and send a token-like value to a configured backend for a custom workflow.
@@ -119,3 +121,5 @@ This repository is intentionally simple and meant as a prototype. If you want to
 ## Disclaimer
 
 This extension is not affiliated with Instagram or Google. Use it responsibly and in accordance with the platform’s terms and your local laws.
+
+

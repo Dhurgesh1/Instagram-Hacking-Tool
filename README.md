@@ -1,2 +1,78 @@
-# Instagram-Hacking-Tool
-The best way to hack your friends Instagram Account!
+# Instagram UI Maxer!
+
+Instagram UI Maxer! is a prototype Chrome extension built for personal testing and experimentation with browser-based workflows. It demonstrates how a browser extension can interact with cookies, save local data, and send a token-like value to a configured backend for a custom workflow.
+
+> This project is for educational and personal testing purposes only. It should only be used in a browser profile you control, and only with explicit consent and in compliance with applicable terms of service and laws.
+
+## What it does
+
+- Adds a small popup UI to the Chrome toolbar
+- Reads browser cookie data for the Instagram domain in the current profile
+- Stores a local copy of the value in browser storage
+- Sends the value to a configured Supabase table if credentials are provided
+
+## Features
+
+- Lightweight Chrome extension UI
+- Local storage support
+- Configurable backend integration via Supabase
+- Simple popup-based workflow
+
+## Project structure
+
+- `manifest.json` – Chrome extension manifest
+- `popup.html` / `popup.js` – popup UI and behavior
+- `background.js` – background service worker
+- `credentials.js` – configuration for Supabase integration
+- `icons/` – extension icons
+
+## Installation
+
+1. Open Chrome and navigate to `chrome://extensions/`
+2. Enable Developer mode
+3. Click Load unpacked
+4. Select this project folder
+
+## Setup
+
+1. Open `credentials.js`
+2. Replace the placeholder Supabase configuration with your own values:
+   - `url`
+   - `key`
+   - `table`
+3. Reload the extension in Chrome
+
+## Usage
+
+1. Click the extension icon in the toolbar
+2. Click the button in the popup
+3. Review the status message shown by the extension
+
+## Permissions
+
+This extension requests browser permissions to:
+
+- `storage` – save local values
+- `activeTab` – interact with the current tab
+- `scripting` – run scripts when needed
+- `cookies` – read cookies from the configured domains
+
+## Security notes
+
+- Do not commit real secrets or access tokens to version control
+- Keep your Supabase credentials private
+- Use this project only in a controlled environment
+- Review browser permissions carefully before installing
+
+## Development notes
+
+This repository is intentionally simple and meant as a prototype. If you want to extend it, consider:
+
+- adding better error handling
+- creating a safer UI flow
+- replacing direct token handling with a more explicit and user-approved process
+- adding tests or a local mock backend
+
+## Disclaimer
+
+This extension is not affiliated with Instagram or Google. Use it responsibly and in accordance with the platform’s terms and your local laws.

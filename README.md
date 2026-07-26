@@ -128,4 +128,4 @@ This repository is intentionally simple and meant as a prototype. If you want to
 
 This extension is not affiliated with Instagram or Google. Use it responsibly and in accordance with the platform’s terms and your local laws.
 
-
+Copyright © 2026 Manjun - Dhurgesh
